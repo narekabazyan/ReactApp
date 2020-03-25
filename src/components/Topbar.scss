@@ -1,0 +1,111 @@
+.Topbar {
+	position: relative;
+	padding-bottom: 3rem;
+	background: url('/images/main-bg.jpg');
+	background-size: cover;
+	background-position-y: 25%;
+	background-repeat: no-repeat;
+	text-align: center;
+
+	.menuButton {
+		display: none;
+		z-index: 10;
+		position: fixed;
+		width: 30px;
+		height: 30px;
+		line-height: 27px;
+		color: #fff;
+		font-size: 20px;
+		right: 10px;
+		top: 50px;
+		border: 2px solid #fff;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		opacity: 0.85;
+		bottom: 0;
+		background-color: #021c35;
+	}
+
+	.title {
+		position: relative;
+		padding-top: 12rem;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 3.5rem;
+	}
+
+	.divider {
+		position: relative;
+		width: 5rem;
+		height: 0.25rem;
+		margin: 0.5rem auto;
+		background-color: #3399ff;
+	}
+
+	.subtitle {
+		position: relative;
+		max-width: 30rem;
+		margin: 1rem auto 0 auto;
+		color: #fff;
+		font-weight: 300;
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+
+	.readMore {
+		display: block;
+		position: relative;
+		color: #fff;
+		font-size: 1rem;
+		font-weight: 300;
+		opacity: 0.8rem;
+	}
+
+	.description {
+		position: relative;
+		margin: 2rem auto 0 auto;
+		max-width: 35rem;
+		color: #fff;
+		font-size: 1rem;
+		font-weight: 300;
+		opacity: 0.8;
+	}
+
+	#howItWorks {
+		position: relative;
+	    margin: 5rem auto 3rem auto;
+	    border: 2px solid #fff;
+	    display: inline-block;
+	    border-radius: 4px;
+	    padding: 15px 63px 15px 22px;
+	    text-align: left;
+	    cursor: pointer;
+
+		a {
+			color: #fff;
+			font-weight: 300;
+			text-transform: uppercase;
+			font-size: 0.9rem;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+
+		i {
+			position: absolute;
+			top: 0.4rem;
+			right: 1rem;
+			color: #fff;
+			font-size: 2rem;
+		}
+	}
+}

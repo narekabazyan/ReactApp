@@ -1,0 +1,46 @@
+.UserDocumentList {
+	margin-top: 1rem;
+	font-size: 0.9rem;
+
+	table {
+		thead {
+			border: 1px solid #bfbfbf;
+		}
+
+		tbody {
+			border: 1px solid #e1e8ee;
+			border-top: none;
+		}
+
+		th, td {
+			position: relative;
+			padding: 1.2rem 1.8rem !important;
+			text-align: left;
+			border: none !important;
+		}
+
+		th {
+			background-color: #bfbfbf;
+			color: #fff;
+			font-weight: 400;
+		}
+
+		tr {
+			&:nth-child(2n+1) {
+				background-color: #fff;
+			}
+
+			&:nth-child(2n) {
+				background-color: #f5f5f5;
+			}
+		}
+
+		.document-icon {
+			position: absolute;
+			top: 0.7rem;
+			left: 2.5rem;
+			font-size: 1.5rem;
+			color: #959595;
+		}
+	}
+}

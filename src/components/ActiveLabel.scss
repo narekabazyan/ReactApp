@@ -1,0 +1,75 @@
+.SortableItem {
+  cursor: grabbing !important;
+  cursor: -moz-grabbing !important;
+  cursor: -webkit-grabbing !important;
+  cursor: move;
+
+  .label-drag {
+    opacity: 0.5 !important;
+  }
+
+  .label-close {
+    position: absolute !important;
+    float: none !important;
+  }
+
+  .label-content {
+    width: 100%;
+    background-color: #717882 !important;
+  }
+}
+
+.ActiveLabel {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+
+  &:hover {
+    .label-drag {
+      opacity: 0.5 !important;
+    }
+  }
+
+  .label-content {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 2rem;
+    background-color: #8c9198;
+    color: #fff;
+
+    &.clickable {
+      cursor: pointer;
+
+      &:hover {
+        background-color: #717882;
+      }
+    }
+
+    .label-drag {
+      float: left;
+      margin-top: .05rem;
+      margin-left: -1rem;
+      padding-left: 0.6rem;
+      padding-right: .5rem;
+      opacity: 0;
+      cursor: move;
+      cursor: grab;
+      cursor: -moz-grab;
+      cursor: -webkit-grab;
+    }
+
+    .label-close {
+      float: right;
+      margin-top: 0.05rem;
+      margin-left: 0.6rem;
+      font-size: 0.8rem;
+      opacity: 0.5;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

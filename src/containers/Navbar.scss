@@ -1,0 +1,72 @@
+.Navbar {
+	position: absolute;
+	top: 3rem;
+	right: 6%;
+	z-index: 1;
+
+	a {
+		margin-left: 0.2rem;
+		text-decoration: none;
+		color: #fff;
+		opacity: 0.8;
+
+		&:hover {
+			text-decoration: underline;
+			color: #fff;
+			opacity: 1;
+		}
+
+		&.btn-primary {
+			margin-left: 0.5rem;
+			opacity: 1;
+		}
+
+		&.profile {
+			display: inline-block;
+			margin-top: -1rem;
+			text-decoration: none !important;
+			font-size: 0.9rem;
+
+			i, img {
+				display: inline-block;
+				width: 2rem;
+				height: 2rem;
+				margin-right: 0.2rem;
+				line-height: 2rem;
+				font-size: 1rem;
+				background: rgba(255, 255, 255, 0.15);
+				border-radius: 50%;
+			}
+		}
+	}
+
+	span {
+		padding: 0 0.7rem;
+		color: #fff;
+	}
+
+	.dropdown-menu {
+	    display: block;
+		top: 2rem;
+	    right: 0;
+	    left: initial;
+	}
+
+	.boron-modal {
+		& > div:first-child {
+
+			.form-actions {
+				padding-top: 0;
+			}
+
+			p {
+				margin-bottom: 3rem;
+				opacity: 0.8;
+			}
+
+			.alert {
+				text-align: left;
+			}
+		}
+	}
+}

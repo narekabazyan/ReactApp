@@ -1,0 +1,29 @@
+@media (max-width: 991px) {
+    /*
+    * Base structure
+    */
+    html,
+    body {
+        height: 100%;
+        font-size: 14px;
+        color: #333;
+    }
+    .App {
+
+        .counter {
+            .withDivider {
+                &:after {
+                    right: 0 !important;
+                }
+            }
+        }
+
+        .footer {
+            .row {
+                .infoContainer {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}

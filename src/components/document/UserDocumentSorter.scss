@@ -1,0 +1,17 @@
+.DocumentSorter {
+    display: inline-block;
+    /*float: right;*/
+    margin: 2.5rem 0 1rem 0;
+    font-size: 0.9rem;
+    text-align: right;
+
+    label {
+        font-weight: 400;
+    }
+
+    select {
+        display: inline-block;
+        width: inherit;
+        margin-left: 1rem;
+    }
+}

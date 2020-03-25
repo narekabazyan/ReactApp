@@ -1,0 +1,100 @@
+.SearchBox {
+	position: relative;
+	margin-top: 3rem;
+
+	input {
+		width: 50%;
+		padding: 1rem 1.5rem;
+		border: none;
+		border-radius: 6px;
+		background-color: #fff;
+		outline: none;
+		color: rgb(134, 147, 158);
+
+		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		  	color: rgba(134, 147, 158, 0.7);
+			font-size: smaller;
+		}
+		&::-moz-placeholder { /* Firefox 19+ */
+		  	color: rgba(134, 147, 158, 0.7);
+			font-size: smaller;
+		}
+		&:-ms-input-placeholder { /* IE 10+ */
+		  	color: rgba(134, 147, 158, 0.7);
+			font-size: smaller;
+		}
+		&:-moz-placeholder { /* Firefox 18- */
+		  	color: rgba(134, 147, 158, 0.7);
+			font-size: smaller;
+		}
+	}
+
+	i {
+		position: absolute;
+	    width: 30px;
+	    height: 30px;
+	    text-align: center;
+	    line-height: 30px;
+	    top: calc(50% - 16px);
+	    right: 26.5%;
+	    font-size: 2.1rem;
+	    color: #b5bfc7;
+	}
+
+	.list-wrapper {
+		position: absolute;
+		left: 0;
+		width: 100%;
+
+		ul {
+			position: relative;
+			width: 24rem;
+			margin: 0.6rem auto 0 auto;
+			padding: 0;
+			box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+			z-index: 9000;
+
+			li {
+				list-style: none;
+
+				&:last-child a {
+					border-bottom-left-radius: 5px;
+					border-bottom-right-radius: 5px;
+				}
+
+				&:first-child a {
+				  border-top-left-radius: 5px;
+				  border-top-right-radius: 5px;
+			  	}
+
+				a {
+					display: block;
+					padding: 0.5rem 0;
+					color: inherit;
+					background-color: #fff;
+					text-decoration: none;
+					font-family: 'Montserrat', sans-serif;
+					font-size: 95%;
+
+					&:hover {
+						background-color: #F5F5F5;
+					}
+				}
+			}
+		}
+	}
+}
+
+.SearchBox.profilePage {
+	display: inline-block;
+	width: 70%;
+
+	input {
+		display: block;
+		width: 80%;
+	}
+
+	i {
+		right: 22%;
+	}
+}

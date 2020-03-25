@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+	/*
+	 * Base structure
+	 */
+	html,
+	body {
+		height: 100%;
+		font-size: 13px;
+		color: #333;
+	}
+	.App {
+		.DocumentFormSteps {
+			height: auto !important;
+			ul {
+				display: flex !important;
+				.number {
+					display: block !important;
+					width: 5.2rem !important;
+					height: 5.2rem !important;
+					text-align: center !important;
+					line-height: 5.2rem !important;
+				}
+				.name{
+					display: inline-block !important;
+					padding: 0 !important;
+					width: 5.2em !important;
+					text-align: center !important;
+					word-wrap: break-word !important;
+				}
+			}
+		}
+		.DocumentFormFields{
+			height: auto !important;
+		}
+		.DocumentFormPreview{
+			display: none !important;
+		}
+		.boron-modal {
+			width: 65% !important;
+		}
+
+		.counter {
+			.withDivider {
+				&:after {
+					right: 0;
+				}
+
+				&:nth-child(2) {
+					&:after {
+						border: none;
+					}
+				}
+			}
+		}
+
+		.footer {
+			.row {
+				.infoContainer, .socialIcons, .logo {
+					text-align: left;
+				}
+			}
+		}
+	}
+}

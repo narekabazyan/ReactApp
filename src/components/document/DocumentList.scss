@@ -1,0 +1,69 @@
+.DocumentList {
+    h2 {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    ul {
+        padding: 0;
+        
+        li {
+            overflow: auto;
+            list-style: none;
+            width: 100%;
+
+            a,
+            a:hover {
+                display: block;
+                position: relative;
+                margin-bottom: 0.5rem;
+                padding-bottom: 0.5rem;
+                font-size: 0.9rem;
+                text-decoration: none;
+                color: #6c6c72;
+                border-bottom: 1px solid #e1e8ee;
+                
+                i.paper-icon {
+                    display: inline-block;
+                    color: #d6dade;
+                    margin-right: 1rem;
+                    font-size: 4rem;
+                    line-height: 4rem;
+                }
+            }
+
+            a:hover {
+                color: darken(#6C6C72, 5%);
+
+                i.paper-icon {
+                    color: darken(#d6dade, 5%);
+                }
+            }
+
+            span.title {
+                position: absolute;
+                top: 1.5rem;
+                display: inline-block;
+            }
+
+            .btn,
+            .btn:hover,
+            .btn:focus,
+            .btn:active, {
+                float: right;
+                background-color: transparent;
+                padding: 0.5rem 1rem;
+                margin-top: 1rem;
+                color: #6c6c72;
+                box-shadow: none;
+                border: 1px solid #e1e8ee;
+            }
+
+            .btn:hover {
+                border: 1px solid darken(#e1e8ee, 5%);
+            }
+        }
+    }
+}

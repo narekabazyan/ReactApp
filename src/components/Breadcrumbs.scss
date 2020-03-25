@@ -1,0 +1,20 @@
+.Breadcrumbs {
+	padding: 1.2rem 2.2rem;
+	padding-left: 6%;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 0.9rem;
+
+	a {
+		color: #5e6977;
+
+		&:hover {
+			color: #5e6977;
+		}
+	}
+
+	span.divider {
+		margin: 0 1rem;
+		color: #5e6977;
+	}
+}

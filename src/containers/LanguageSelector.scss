@@ -1,0 +1,41 @@
+.LanguageSelector {
+	float: right;
+    top: 0.5rem;
+    position: relative;
+    right: 6%;
+
+    &:hover {
+        .country-label,
+        .arrow-down {
+            opacity: 1 !important;
+        }
+    }
+
+    .form-group {
+    	margin: 0;
+    }
+
+    .flag-select {
+    	.flag-options {
+    		margin-top: 6px;
+    	}
+    }
+
+	.country-flag {
+		font-size: 0.8rem;
+
+		img {
+			top: 0;
+		}
+
+        .country-label {
+            opacity: 0.5;
+        }
+	}
+
+	.arrow-down {
+		margin-left: 0.3rem;
+		font-size: 0.7rem;
+        opacity: 0.5;
+	}
+}

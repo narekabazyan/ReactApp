@@ -1,0 +1,69 @@
+[class*='Page'] {
+	height: 100%;
+
+	.content {
+		padding: 1.7rem 2.2rem 5rem 2.2rem;
+	}
+
+	h2 {
+		margin-top: 5rem;
+		margin-bottom: 4rem;
+		text-align: center;
+		font-size: 200%;
+		font-weight: 400;
+		font-family: 'Montserrat', sans-serif;
+		color: #43484d;
+	}
+}
+
+.HomePage {
+	.content {
+		background-color: #f9f9f9;
+		padding: 0.1rem 0 0;
+		text-align: center;
+
+		.categoryList {
+			padding: 0 2.2rem;
+		}
+		
+		.moreCategories {
+			position: relative;
+		    display: inline-block;
+		    margin: 1rem auto;
+		    padding: 18px 22px;
+		    border: 2px solid #39f;
+		    border-radius: 5px;
+		    color: #3399ff;
+		    font-size: 1rem;
+
+			&:hover {
+				border-color: darken(#3399ff, 5%);
+				color: darken(#3399ff, 5%);
+			}
+		}
+	}
+
+	.container-row {
+		margin: 0 8%;
+	}
+}
+
+.DocumentListPage {
+	.content {
+		padding-top: 3rem;
+	}
+}
+
+.DocumentFormPage {
+	.content {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+.RequiredOptionsPage {
+	.content {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
