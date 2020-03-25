@@ -165,7 +165,7 @@
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-webpack-with-fast-source-maps": "^1.9.2",
     "mocha": "^3.0.1",
-    "mongoose": "^4.7.0",
+    "mongoose": "^5.9.6",
     "node-object-hash": "^1.2.0",
     "nodemon": "^1.10.2",
     "phantomjs-prebuilt": "^2.1.12",
